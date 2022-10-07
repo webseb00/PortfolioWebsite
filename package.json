@@ -1,9 +1,9 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Personal portfolio",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Sebastian Basinski",
   "dependencies": {
     "gatsby": "^4.24.2",
     "gatsby-plugin-image": "^2.24.0",
@@ -16,6 +16,7 @@
     "react-dom": "^18.1.0"
   },
   "devDependencies": {
+    "gatsby-plugin-postcss": "^5.24.0",
     "prettier": "^2.7.1"
   },
   "keywords": [
