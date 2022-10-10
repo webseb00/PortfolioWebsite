@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { BsChevronLeft, BsChevronRight } from 'react-icons/bs'
 
 const Header = () => (
   <header
@@ -13,16 +12,6 @@ const Header = () => (
       <div className="relative w-[40px] h-[40px] bg-blue-600">
         <span className="absolute bottom-[-2px] right-[2px] font-semibold text-2xl text-white">
           SB
-        </span>
-      </div>
-      <div className="flex items-center">
-        <BsChevronLeft className="text-4xl leading-3" />
-        <p className="font-semibold leading-4 mb-[3px]">
-          Sebastian<br />Basiński
-        </p>
-        <span className="leading-3 flex items-center">
-          <span className="text-4xl mt-[-8px] mr-[-6px]">/</span>
-          <BsChevronRight className="text-4xl" />
         </span>
       </div>
     </Link>

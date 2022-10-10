@@ -1,7 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import Header from "./header"
+import { Header, Hero, Footer } from './'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -16,21 +16,11 @@ const Layout = ({ children }) => {
 
   return (
     <div className="bg-white">
-      <div className="md:rounded-lg shadow-sm bg-gray-200 md:m-5 overflow-hidden">
+      <div className="md:rounded-lg shadow-md bg-gray-200 md:m-8 overflow-hidden">
         <Header />
-        <div>
-          <main>{children}</main>
-          <footer
-            style={{
-              marginTop: `var(--space-5)`,
-              fontSize: `var(--font-sm)`,
-            }}
-          >
-            © {new Date().getFullYear()} &middot; Built with
-            {` `}
-            <a href="https://www.gatsbyjs.com">Gatsby</a>
-          </footer>
-        </div>
+        <Hero />
+        <main className="max-w-[92%] mx-auto">{children}</main>
+        <Footer />
       </div>
     </div>
   )

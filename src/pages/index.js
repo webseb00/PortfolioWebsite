@@ -1,14 +1,15 @@
 import * as React from "react"
 import { 
   Layout,
-  Seo
+  Seo,
+  About
 } from '../components'
 import '../styles/index.css'
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    
+    <About />
   </Layout>
 )
 

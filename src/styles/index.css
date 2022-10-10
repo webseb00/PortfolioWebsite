@@ -5,3 +5,24 @@
 .header__icon:hover > span {
   width: 100%;
 }
+
+.hero {
+  background-image: linear-gradient(to top, rgb(226, 232, 240), rgb(226, 232, 240, .1)), url('../images/hero_bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 35%;
+}
+
+.about__dots {
+  background-color: #ffffff;
+  opacity: 1;
+  background-image: radial-gradient(#2563eb 2.4px, #e2e8f0 2.4px);
+  background-size: 18px 18px;
+}
+
+.footer {
+  background-image: linear-gradient(to top, rgb(226, 232, 240, .6), rgb(226, 232, 240)), url('../images/footer_bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 35%;
+}
