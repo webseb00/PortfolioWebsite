@@ -2,7 +2,8 @@ import * as React from "react"
 import { 
   Layout,
   Seo,
-  About
+  About,
+  Skills
 } from '../components'
 import '../styles/index.css'
 
@@ -10,6 +11,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <About />
+    <Skills />
   </Layout>
 )
 
