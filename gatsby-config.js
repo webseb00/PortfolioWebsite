@@ -15,6 +15,19 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-omni-font-loader`,
+      options: {
+        enableListener: true,
+        preconnect: [`https://fonts.googleapis.com`],
+        web: [
+          {
+            name: `Roboto Mono`,
+            file: `https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap`,
+          },
+        ],
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

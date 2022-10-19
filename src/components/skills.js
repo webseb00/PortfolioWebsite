@@ -1,20 +1,7 @@
 import React from "react"
 import { MouseParallaxContainer, MouseParallaxChild } from "react-parallax-mouse";
 import { Title } from "./"
-import { StaticImage } from "gatsby-plugin-image";
-import { 
-  Html,
-  Css,
-  JavaScript,
-  sass,
-  npm,
-  bootstrap,
-  tailwind,
-  rwd,
-  react,
-  redux,
-  gatsby
-} from '../images'
+import { SiHtml5, SiSass, SiBootstrap, SiTailwindcss, SiCss3, SiGatsby, SiReact, SiRedux, SiReactrouter, SiGit, SiJavascript, SiNpm  } from 'react-icons/si'
 
 const Skills = () => {
 
@@ -31,9 +18,9 @@ const Skills = () => {
             factorY={0.05}
             className="m-2"
             >
-            <div className="shadow-md rounded-md p-1 bg-gray-100 flex items-center transition duration-300 grayscale hover:grayscale-0">
-              <img src={Html} alt="HTML" className="w-[48px]" />
-              <p className="mx-1 font-semibold">HTML</p>
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+              <SiHtml5 className="text-2xl" />
+              <p className="ml-1 font-robotoMono font-semibold">HTML</p>
             </div>
           </MouseParallaxChild>
           <MouseParallaxChild 
@@ -41,9 +28,9 @@ const Skills = () => {
             factorY={0.09}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-1 bg-gray-100 flex items-center transition duration-300 grayscale hover:grayscale-0">
-              <img src={Css} alt="Css" className="w-[48px]" />
-              <p className="mx-1 font-semibold">CSS</p>
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+              <SiCss3 className="text-2xl" />
+              <p className="ml-1 font-robotoMono font-semibold">CSS</p>
             </div>
           </MouseParallaxChild>
           <MouseParallaxChild 
@@ -51,9 +38,9 @@ const Skills = () => {
             factorY={0.1}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-1 bg-gray-100 flex items-center transition duration-300 grayscale hover:grayscale-0">
-              <img src={JavaScript} alt="JavaScript" className="w-[48px]" />
-              <p className="mx-1 font-semibold">JavaScript</p>
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+              <SiJavascript className="text-2xl" />
+              <p className="ml-1 font-robotoMono font-semibold">JavaScript</p>
             </div>
           </MouseParallaxChild>
           <MouseParallaxChild 
@@ -61,9 +48,9 @@ const Skills = () => {
             factorY={0.06}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-1 bg-gray-100 flex items-center transition duration-300 grayscale hover:grayscale-0">
-              <img src={sass} alt="Sass" className="w-[48px]" />
-              <p className="mx-1 font-semibold">Sass</p>
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+              <SiSass className="text-2xl" />
+              <p className="ml-1 font-robotoMono font-semibold">Sass</p>
             </div>
           </MouseParallaxChild>
           <MouseParallaxChild 
@@ -71,9 +58,9 @@ const Skills = () => {
             factorY={0.06}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-1 bg-gray-100 flex items-center transition duration-300 grayscale hover:grayscale-0">
-              <img src={bootstrap} alt="Bootstrap" className="w-[48px]" />
-              <p className="mx-1 font-semibold">Bootstrap</p>
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+              <SiBootstrap className="text-2xl" />
+              <p className="ml-1 font-robotoMono font-semibold">Bootstrap</p>
             </div>
           </MouseParallaxChild>
           <MouseParallaxChild 
@@ -81,19 +68,9 @@ const Skills = () => {
             factorY={0.08}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-1 bg-gray-100 flex items-center transition duration-300 grayscale hover:grayscale-0">
-              <img src={tailwind} alt="Tailwind CSS" className="w-[48px]" />
-              <p className="mx-1 font-semibold">Tailwind CSS</p>
-            </div>
-          </MouseParallaxChild>
-          <MouseParallaxChild 
-            factorX={0.03}
-            factorY={0.07}
-            className="m-2"
-          >
-            <div className="shadow-md rounded-md p-1 bg-gray-100 flex items-center transition duration-300 grayscale hover:grayscale-0">
-              <img src={rwd} alt="RWD" className="w-[48px]" />
-              <p className="mx-1 font-semibold">RWD</p>
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+              <SiTailwindcss className="text-2xl" />
+              <p className="ml-1 font-robotoMono font-semibold">Tailwind CSS</p>
             </div>
           </MouseParallaxChild>
           <MouseParallaxChild 
@@ -101,9 +78,19 @@ const Skills = () => {
             factorY={0.08}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-1 bg-gray-100 flex items-center transition duration-300 grayscale hover:grayscale-0">
-              <img src={npm} alt="Node Package Manager" className="w-[48px]" />
-              <p className="mx-1 font-semibold">NPM</p>
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+              <SiNpm className="text-2xl" />
+              <p className="ml-1 font-robotoMono font-semibold">NPM</p>
+            </div>
+          </MouseParallaxChild>
+          <MouseParallaxChild 
+            factorX={0.08}
+            factorY={0.08}
+            className="m-2"
+          >
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+              <SiGit className="text-2xl" />
+              <p className="ml-1 font-robotoMono font-semibold">GIT</p>
             </div>
           </MouseParallaxChild>
           <MouseParallaxChild 
@@ -111,9 +98,9 @@ const Skills = () => {
             factorY={0.09}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-1 bg-gray-100 flex items-center transition duration-300 grayscale hover:grayscale-0">
-              <img src={react} alt="React" className="w-[48px]" />
-              <p className="mx-1 font-semibold">React</p>
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+              <SiReact className="text-2xl" />
+              <p className="ml-1 font-robotoMono font-semibold">React</p>
             </div>
           </MouseParallaxChild>
           <MouseParallaxChild 
@@ -121,9 +108,19 @@ const Skills = () => {
             factorY={0.04}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-1 bg-gray-100 flex items-center transition duration-300 grayscale hover:grayscale-0">
-              <img src={redux} alt="React-Redux" className="w-[48px]" />
-              <p className="mx-1 font-semibold">React-Redux</p>
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+              <SiRedux className="text-2xl" />
+              <p className="ml-1 font-robotoMono font-semibold">React-Redux</p>
+            </div>
+          </MouseParallaxChild>
+          <MouseParallaxChild 
+            factorX={0.01}
+            factorY={0.04}
+            className="m-2"
+          >
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+              <SiReactrouter className="text-2xl" />
+              <p className="ml-1 font-robotoMono font-semibold">React-Router</p>
             </div>
           </MouseParallaxChild>
           <MouseParallaxChild 
@@ -131,9 +128,9 @@ const Skills = () => {
             factorY={0.06}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-1 bg-gray-100 flex items-center transition duration-300 grayscale hover:grayscale-0">
-              <img src={gatsby} alt="Gatsby" className="w-[48px]" />
-              <p className="mx-1 font-semibold">Gatsby</p>
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+              <SiGatsby className="text-2xl" />
+              <p className="ml-1 font-robotoMono font-semibold">Gatsby</p>
             </div>
           </MouseParallaxChild>
         </MouseParallaxContainer>

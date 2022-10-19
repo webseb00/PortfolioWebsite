@@ -3,7 +3,8 @@ import {
   Layout,
   Seo,
   About,
-  Skills
+  Skills,
+  Projects,
 } from '../components'
 import '../styles/index.css'
 
@@ -12,6 +13,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <About />
     <Skills />
+    <Projects />
   </Layout>
 )
 
