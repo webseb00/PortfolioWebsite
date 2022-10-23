@@ -7,6 +7,7 @@ import Title from "./title";
 import Navbar from "./navbar";
 import Skills from "./skills";
 import Projects from "./projects";
+import Contact from "./contact";
 import Footer from "./footer";
 
 export {
@@ -19,5 +20,6 @@ export {
   Navbar,
   Skills,
   Projects,
+  Contact,
   Footer
 }

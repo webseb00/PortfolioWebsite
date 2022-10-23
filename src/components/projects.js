@@ -6,13 +6,13 @@ import { BsCodeSlash } from 'react-icons/bs'
 
 const Projects = () => {
   return (
-    <div className="my-[2rem]">
+    <div className="mt-[8rem] mb-[2rem]">
       <Title
         title="Projekty"
         subtitle="Moje dotychczasowe projekty"
       />
-      <div className="my-[6rem]">
-        <div className="mx-auto max-w-[95%] md:max-w-[80%] bg-neutral-200 p-6 shadow-md border-b-2 border-blue-600">
+      <div className="my-[3rem]">
+        <div className="mx-auto max-w-[95%] md:max-w-[80%] bg-neutral-200 p-6 shadow-md border-b-[3px] border-blue-600">
           <div className="flex flex-col text-center lg:text-left lg:flex-row items-center">
             <StaticImage src="../images/recipe-app.png" alt="" className="w-full max-w-[400px]" />
             <div className="lg:ml-10">

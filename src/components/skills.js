@@ -6,7 +6,7 @@ import { SiHtml5, SiSass, SiBootstrap, SiTailwindcss, SiCss3, SiGatsby, SiReact,
 const Skills = () => {
 
   return (
-    <div className="mt-[2rem]">
+    <div className="mt-[8rem] mb-[2rem]">
       <Title
         title="Technologie"
         subtitle="Zakres technologii które wykorzystuję obecnie przy swoich projektach"
@@ -18,7 +18,7 @@ const Skills = () => {
             factorY={0.05}
             className="m-2"
             >
-            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 hover:text-blue-600">
               <SiHtml5 className="text-2xl" />
               <p className="ml-1 font-robotoMono font-semibold">HTML</p>
             </div>
@@ -28,7 +28,7 @@ const Skills = () => {
             factorY={0.09}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 hover:text-blue-600">
               <SiCss3 className="text-2xl" />
               <p className="ml-1 font-robotoMono font-semibold">CSS</p>
             </div>
@@ -38,7 +38,7 @@ const Skills = () => {
             factorY={0.1}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 hover:text-blue-600">
               <SiJavascript className="text-2xl" />
               <p className="ml-1 font-robotoMono font-semibold">JavaScript</p>
             </div>
@@ -48,7 +48,7 @@ const Skills = () => {
             factorY={0.06}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 hover:text-blue-600">
               <SiSass className="text-2xl" />
               <p className="ml-1 font-robotoMono font-semibold">Sass</p>
             </div>
@@ -58,7 +58,7 @@ const Skills = () => {
             factorY={0.06}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 hover:text-blue-600">
               <SiBootstrap className="text-2xl" />
               <p className="ml-1 font-robotoMono font-semibold">Bootstrap</p>
             </div>
@@ -68,7 +68,7 @@ const Skills = () => {
             factorY={0.08}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 hover:text-blue-600">
               <SiTailwindcss className="text-2xl" />
               <p className="ml-1 font-robotoMono font-semibold">Tailwind CSS</p>
             </div>
@@ -78,7 +78,7 @@ const Skills = () => {
             factorY={0.08}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 hover:text-blue-600">
               <SiNpm className="text-2xl" />
               <p className="ml-1 font-robotoMono font-semibold">NPM</p>
             </div>
@@ -88,7 +88,7 @@ const Skills = () => {
             factorY={0.08}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 hover:text-blue-600">
               <SiGit className="text-2xl" />
               <p className="ml-1 font-robotoMono font-semibold">GIT</p>
             </div>
@@ -98,7 +98,7 @@ const Skills = () => {
             factorY={0.09}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 hover:text-blue-600">
               <SiReact className="text-2xl" />
               <p className="ml-1 font-robotoMono font-semibold">React</p>
             </div>
@@ -108,7 +108,7 @@ const Skills = () => {
             factorY={0.04}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 hover:text-blue-600">
               <SiRedux className="text-2xl" />
               <p className="ml-1 font-robotoMono font-semibold">React-Redux</p>
             </div>
@@ -118,7 +118,7 @@ const Skills = () => {
             factorY={0.04}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 hover:text-blue-600">
               <SiReactrouter className="text-2xl" />
               <p className="ml-1 font-robotoMono font-semibold">React-Router</p>
             </div>
@@ -128,7 +128,7 @@ const Skills = () => {
             factorY={0.06}
             className="m-2"
           >
-            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 grayscale hover:grayscale-0">
+            <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 hover:text-blue-600">
               <SiGatsby className="text-2xl" />
               <p className="ml-1 font-robotoMono font-semibold">Gatsby</p>
             </div>

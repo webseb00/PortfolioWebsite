@@ -16,9 +16,11 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.38.0",
     "react-icons": "^4.4.0",
     "react-parallax-mouse": "^1.7.3",
-    "react-tilt": "^0.1.4"
+    "react-tilt": "^0.1.4",
+    "react-toastify": "^9.0.8"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",

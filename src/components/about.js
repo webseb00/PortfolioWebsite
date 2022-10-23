@@ -6,10 +6,10 @@ import Shape from '../images/blobanimation.svg'
 
 const About = () => {
   return (
-    <div id="about" className="text-center pt-[4rem]">
+    <div id="about" className="text-center mt-[8rem] mb-[2rem]">
       <Title title="O Mnie" subtitle="Czyli kilka słów na temat mojej osoby" />
-      <div className="flex flex-col items-center lg:flex-row lg:justify-around my-[7rem]">
-        <div className="mb-[3rem] lg:mb-0">
+      <div className="flex flex-col items-center lg:flex-row lg:justify-around mt-[6rem]">
+        <div className="mb-[1rem] lg:mb-0">
           <Tilt className="Tilt" options={{ max: 10, scale: 1, speed: 800, perspective: 2000 }} style={{ maxWidth: 300 }} >
             <div className="relative">
               <div className="absolute about__dots top-[-36px] left-[-36px] right-[30px] bottom-[30px]" />

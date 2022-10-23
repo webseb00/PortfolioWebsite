@@ -1,12 +1,12 @@
 import React from 'react'
-import { BsFillSuitHeartFill } from 'react-icons/bs'
+import { SiGatsby, SiNetlify } from 'react-icons/si'
 
 const Footer = () => {
   return (
-    <footer className="footer py-[2rem]">
+    <footer className="footer py-[2rem] px-3">
       <div className="text-center">
-        <p>Copyright &copy; 2022 by <span className="text-blue-600 font-semibold">Basinski Sebastian</span></p>
-        <p>Made With Love <BsFillSuitHeartFill className="text-blue-600 inline-block" /></p>
+        <p>&copy; 2022 | Created and designed by <span className="text-slate-700 font-semibold">Basinski Sebastian</span>. All Rights Reserved.</p>
+        <p className="flex justify-center items-center mt-2">Made with <SiGatsby className="text-md ml-2 mr-1 text-[#66339c]" /> Gatsby and <SiNetlify className="text-md ml-2 mr-1 text-[#088893]" /> Netlify CMS.</p>
       </div>
     </footer>
   )

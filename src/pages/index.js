@@ -1,10 +1,13 @@
 import * as React from "react"
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.min.css'
 import { 
   Layout,
   Seo,
   About,
   Skills,
   Projects,
+  Contact
 } from '../components'
 import '../styles/index.css'
 
@@ -14,6 +17,8 @@ const IndexPage = () => (
     <About />
     <Skills />
     <Projects />
+    <Contact />
+    <ToastContainer />
   </Layout>
 )
 
