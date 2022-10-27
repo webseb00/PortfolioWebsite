@@ -4,7 +4,7 @@ import { Header, Hero, Navbar, Footer } from './'
 const Layout = ({ children }) => {
   return (
     <div className="bg-white">
-      <div className="md:rounded-lg shadow-md bg-gray-200 md:m-8 overflow-hidden relative">
+      <div className="wrapper transition delay-400 duration-1000 opacity-10 ease-in md:rounded-lg shadow-md bg-gray-200 md:m-8 overflow-hidden relative">
         <Header />
         {/* <Navbar /> */}
         <Hero />

@@ -1,26 +1,40 @@
-import * as React from "react"
-import { ToastContainer } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.min.css'
+import React, { useEffect } from "react"
 import { 
   Layout,
   Seo,
   About,
   Skills,
   Projects,
-  Contact
+  Contact,
+  Preloader
 } from '../components'
+import { onPreRouteUpdate } from "../../gatsby-browser"
+
+import { Scrollbar } from 'react-scrollbars-custom';
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.min.css'
 import '../styles/index.css'
 
-const IndexPage = () => (
-  <Layout>
-    <Seo title="Home" />
-    <About />
-    <Skills />
-    <Projects />
-    <Contact />
-    <ToastContainer />
-  </Layout>
-)
+const IndexPage = () => {
+
+  useEffect(() => { 
+    onPreRouteUpdate()
+  }, [])
+
+  return (
+    <Scrollbar style={{ width: '100%', height: '100vh' }}>
+      {/* <Preloader /> */}
+      <Layout>
+        <Seo title="Home" />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+        <ToastContainer />
+      </Layout>
+    </Scrollbar>
+  )
+}
 
 /**
  * Head export to define metadata for the page

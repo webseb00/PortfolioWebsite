@@ -6,7 +6,7 @@ import Shape from '../images/blobanimation.svg'
 
 const About = () => {
   return (
-    <div id="about" className="text-center mt-[8rem] mb-[2rem]">
+    <div className="text-center mt-[8rem] mb-[2rem]">
       <Title title="O Mnie" subtitle="Czyli kilka słów na temat mojej osoby" />
       <div className="flex flex-col items-center lg:flex-row lg:justify-around mt-[6rem]">
         <div className="mb-[1rem] lg:mb-0">

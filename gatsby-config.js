@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    `gatsby-plugin-netlify-cms`,
     'gatsby-plugin-postcss',
     `gatsby-plugin-image`,
     {

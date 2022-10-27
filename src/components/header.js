@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 
 const Header = () => (
   <header
-    id="home"
     className="bg-slate-100 p-4 text-white flex justify-between items-center"
   >
     <Link 

@@ -17,7 +17,7 @@ const Skills = () => {
             factorX={0.07}
             factorY={0.05}
             className="m-2"
-            >
+          >
             <div className="shadow-md rounded-md p-2 bg-gray-100 text-slate-700 flex items-center transition duration-300 hover:text-blue-600">
               <SiHtml5 className="text-2xl" />
               <p className="ml-1 font-robotoMono font-semibold">HTML</p>
@@ -133,6 +133,7 @@ const Skills = () => {
               <p className="ml-1 font-robotoMono font-semibold">Gatsby</p>
             </div>
           </MouseParallaxChild>
+          
         </MouseParallaxContainer>
       </div>
     </div>

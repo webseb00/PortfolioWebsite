@@ -9,6 +9,7 @@ import Skills from "./skills";
 import Projects from "./projects";
 import Contact from "./contact";
 import Footer from "./footer";
+import Preloader from "./preloader";
 
 export {
   Header,
@@ -21,5 +22,6 @@ export {
   Skills,
   Projects,
   Contact,
-  Footer
+  Footer,
+  Preloader
 }
