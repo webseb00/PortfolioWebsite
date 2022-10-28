@@ -5,31 +5,26 @@ backend:
 media_folder: "images/uploads"
 
 collections:
-  - label: "Pages"
-    name: "pages"
+  - label: "Sections"
+    name: "sections"
     files:
-      - label: "About Page"
+      - label: "About Me"
         name: "about"
         file: "site/content/about.yml"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Team
-            name: team
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Position, name: position, widget: string}
-              - {label: Photo, name: photo, widget: image}
-      - label: "Locations Page"
-        name: "locations"
-        file: "site/content/locations.yml"
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Description, name: description, widget: markdown}
+          - {label: Thumbnail, name: thumbnail, widget: image}
+      - label: "Skills"
+        name: "skills"
+        file: "site/content/skills.yml"
+        widget: "list"
+        summary: "{{fields.name}} {{fields.thumbnail}}"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Locations
-            name: locations
-            widget: list
+          - label: Skill
+            name: skill
+            widget: object
             fields:
               - {label: Name, name: name, widget: string}
-              - {label: Address, name: address, widget: string}
+              - {label: Thumbnail, name: thumbnail, widget: image}
